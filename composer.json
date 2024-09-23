@@ -9,7 +9,7 @@
         "email": "unclecheese@leftandmain.com"
     }],
     "require": {
-        "silverstripe/framework": "4.*"
+        "silverstripe/framework": "4.* | ^5"
     },
     "extra": {
         "installer-name": "dropzone",
@@ -17,11 +17,11 @@
             "javascript",
             "css",
             "images"
-        ]        
+        ]
     },
     "autoload": {
         "psr-4": {
             "UncleCheese\\Dropzone\\": "src/"
         }
-    }    
+    }
 }
